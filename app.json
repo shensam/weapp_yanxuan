@@ -7,7 +7,8 @@
         "pages/personal/personal"
     ],
     "window":{
-        "navigationBarTitleText":"网易严选"
+        "navigationBarTitleText":"网易严选",
+        "backgroundColor":"#f4f4f4"
     },
     "tabBar":{
         "color":"#666",

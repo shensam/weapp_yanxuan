@@ -1,5 +1,22 @@
 <view class="xcx_wrapper">
     <view class="search_nav">
-    <text class="search_nav_txt">网易严选</text> <input class="search_nav_input" type="text" placeholder="" auto-focus password />
+    <text class="search_nav_txt">网易严选</text> 
+    <view class="search_nav_input" >
+        <view class="input_wrapper">
+                <icon type="search" size="16" color="#666" />
+                <view class="search_txt">搜索商品，共134556款好物</view> </view>
+        </view>
+    </view>
+    <view class="nav_bar">
+            <scroll-view class="scroll-view_H" scroll-x style="width: auto;overflow:hidden;">
+                <block wx:for="{{nav_bar_list}}">
+                        <view id='nav_{{index}}' wx:key='{{index}}' class='scroll-view-item_H {{index==nav_active_item ? "scroll-view-item-active":" "}}' data-idx='{{index}}' bindtap='handleNavTap'>{{item}}</view>
+                </block>
+            </scroll-view>
+    </view>
+    <view class="swiper_wrapper">
+        <swiper>
+        
+        </swiper>
     </view>
 </view>
