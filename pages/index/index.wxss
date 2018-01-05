@@ -1,0 +1,6 @@
+.search_nav {
+    display:flex
+}
+.search_nav_txt {
+    font-size:16px
+}

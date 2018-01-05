@@ -1,0 +1,5 @@
+<view class="xcx_wrapper">
+    <view class="search_nav">
+    <text class="search_nav_txt">网易严选</text> <input class="search_nav_input" type="text" placeholder="" auto-focus password />
+    </view>
+</view>
