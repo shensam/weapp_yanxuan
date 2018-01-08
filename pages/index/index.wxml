@@ -10,13 +10,122 @@
     <view class="nav_bar">
             <scroll-view class="scroll-view_H" scroll-x style="width: auto;overflow:hidden;">
                 <block wx:for="{{nav_bar_list}}">
-                        <view id='nav_{{index}}' wx:key='{{index}}' class='scroll-view-item_H {{index==nav_active_item ? "scroll-view-item-active":" "}}' data-idx='{{index}}' bindtap='handleNavTap'>{{item}}</view>
+                        <view id='nav_{{index}}' wx:key='{{index}}' class='nav_bar_item scroll-view-item_H {{index==nav_active_item ? "scroll-view-item-active":" "}}' data-idx='{{index}}' bindtap='handleNavTap'>{{item}}</view>
                 </block>
             </scroll-view>
     </view>
-    <view class="swiper_wrapper">
-        <swiper>
-        
+    <view class="swiper_wrapper" >
+        <swiper autoplay indicator-dots >
+                <block wx:for="{{swiper_list}}">
+                        <swiper-item>
+                            <image src="{{item}}" class="slide_image"></image>
+                        </swiper-item>
+                    </block>
         </swiper>
     </view>
+    <view class="servicePolicy">
+        <view class="ervicePolicy_item"><image src="http://qnm.hunliji.com/o_1c39sgn931md71pf161t1e071sc47.png" class="header_icon"></image><text>网易自营品牌</text></view>
+        <view class="ervicePolicy_item"><image src="http://qnm.hunliji.com/o_1c39sgn931md71pf161t1e071sc47.png" class="header_icon"></image><text>30天无忧退货</text></view>
+        <view class="ervicePolicy_item"><image src="http://qnm.hunliji.com/o_1c39sgn931md71pf161t1e071sc47.png" class="header_icon"></image><text>48小时快速退款</text></view>
+    </view>
+    <view class="ManufacturersSupplying">
+        <view class="ManufacturersSupplying_header"><text>品牌制造商直供</text> <image class="header_icon" src="//yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/go2-3e511991d6.png"></image></view>
+        <view class="ManufacturersSupplying_con">
+
+            <view class="ManufacturersSupplying_con_item">
+                <view class="mfs_item_txt">
+                    <text class="maker">Adidas制造商</text>
+                    <text class="price">23元起</text>
+                </view>
+                <image class="mfs_item_img" src="http://yanxuan.nosdn.127.net/2fc924ae44eb0a37dda18690368851af.png?imageView&thumbnail=355x0&quality=65" alt=""></image>
+            </view>
+            <view class="ManufacturersSupplying_con_item">
+                <view class="mfs_item_txt">
+                    <text class="maker">Adidas制造商</text>
+                    <text class="price">23元起</text>
+                </view>
+                <image class="mfs_item_img" src="http://yanxuan.nosdn.127.net/2fc924ae44eb0a37dda18690368851af.png?imageView&thumbnail=355x0&quality=65" alt=""></image>
+            </view>
+            <view class="ManufacturersSupplying_con_item">
+                <view class="mfs_item_txt">
+                    <text class="maker">Adidas制造商</text>
+                    <text class="price">23元起</text>
+                </view>
+                <image class="mfs_item_img" src="http://yanxuan.nosdn.127.net/2fc924ae44eb0a37dda18690368851af.png?imageView&thumbnail=355x0&quality=65" alt=""></image>
+            </view>
+            <view class="ManufacturersSupplying_con_item">
+                <view class="mfs_item_txt">
+                    <text class="maker">Adidas制造商</text>
+                    <text class="price">23元起</text>
+                </view>
+                <image class="mfs_item_img" src="http://yanxuan.nosdn.127.net/2fc924ae44eb0a37dda18690368851af.png?imageView&thumbnail=355x0&quality=65" alt=""></image>
+            </view>
+        </view>
+    </view>
+    <view class="newItem">
+        <view class="middleTxt">
+            <text class="up">周一周四 · 新品首发</text>
+            <text class="down">查看全部</text>
+        </view>
+    </view>
+    <view class="firstShow scroll-view-wrapper">
+        <scroll-view scroll-x style="width: auto;overflow:hidden;">
+
+            <view class="firstShow_item scroll-view-item">
+                <view class="firstShow_item_img">
+                    <image src="http://yanxuan.nosdn.127.net/aeabba5efb754cefca20ec25e4e2b48a.png?imageView&quality=65&thumbnail=330x330"></image>
+                </view>
+                <view class="firstShow_item_tag"><text>加价购</text></view>
+                <view class="firstShow_item_title"><text>互联网大会同款 特型黄酒 500毫升</text></view>
+                <view class="firstShow_item_subtitle"><text>绍兴出产，八年陈酿</text></view>
+                <view class="firstShow_item_price">￥68</view>
+            </view>
+            <view class="firstShow_item">
+                <view class="firstShow_item_img">
+                    <image src="http://yanxuan.nosdn.127.net/d85da2d95b5311c75091fe9a245bf6db.png?imageView&quality=65&thumbnail=330x330"></image>
+                </view>
+                <view class="firstShow_item_mark">2色可选</view>
+                <view class="firstShow_item_tag"><text>今日特价</text></view>
+                <view class="firstShow_item_title"><text>男式咖啡碳+5℃升级保暖内衣</text></view>
+                <view class="firstShow_item_subtitle"><text>从咖啡到纱线，温暖入肤</text></view>
+                <view class="firstShow_item_price">￥59</view>
+            </view>
+            <view class="firstShow_item">
+                <view class="firstShow_item_img">
+                    <image src="http://yanxuan.nosdn.127.net/d85da2d95b5311c75091fe9a245bf6db.png?imageView&quality=65&thumbnail=330x330"></image>
+                </view>
+                <view class="firstShow_item_mark">2色可选</view>
+                <view class="firstShow_item_tag"><text>今日特价</text></view>
+                <view class="firstShow_item_title"><text>男式咖啡碳+5℃升级保暖内衣</text></view>
+                <view class="firstShow_item_subtitle"><text>从咖啡到纱线，温暖入肤</text></view>
+                <view class="firstShow_item_price">￥59</view>
+            </view>
+            <view class="firstShow_item">
+                <view class="firstShow_item_img">
+                    <image src="http://yanxuan.nosdn.127.net/d85da2d95b5311c75091fe9a245bf6db.png?imageView&quality=65&thumbnail=330x330"></image>
+                </view>
+                <view class="firstShow_item_mark">2色可选</view>
+                <view class="firstShow_item_tag"><text>今日特价</text></view>
+                <view class="firstShow_item_title"><text>男式咖啡碳+5℃升级保暖内衣</text></view>
+                <view class="firstShow_item_subtitle"><text>从咖啡到纱线，温暖入肤</text></view>
+                <view class="firstShow_item_price">￥59</view>
+            </view>
+
+        </scroll-view>
+    </view>
+    <view class="sale">
+       
+    </view>
+    <view class="floor scroll-view-wrapper">
+            <view class="ManufacturersSupplying_header"><text>专题精选</text> <image class="header_icon" src="//yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/go2-3e511991d6.png"></image></view>
+            <scroll-view scroll-x style="width: auto;overflow:hidden;">
+                <view class="floor_item scroll-view-item">
+                    <view class="floor_item_img">
+                        <image src="http://yanxuan.nosdn.127.net/73e85307c46f2aaf0688e0545119ea05.jpg?imageView&thumbnail=750x0&quality=75"></image>
+                    </view>
+                    <view class="floor_item_mid_txt"><text>给落雪圣诞的暖心礼物</text> <text>52.8元起</text></view>
+                    <view class="floor_item_bto_txt"><text>让它们陪你过一个难忘的圣诞节</text></view>
+                </view>
+            </scroll-view>
+        </view>
 </view>
