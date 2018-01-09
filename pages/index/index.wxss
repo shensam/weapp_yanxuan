@@ -49,7 +49,7 @@
 .nav_bar_item:not(:first-child) {
     margin-left:48rpx;
 }
-.scroll-view-item_H {
+.scroll-view-item {
     display: inline-block;
     font-size: 14px;
     width: 60rpx;
@@ -226,14 +226,91 @@ image{
 }
 .floor {
     height:563rpx;
+    padding: 0 20rpx;
 }
 
 .floor_item{
     width:579rpx;
-    margin: 0 20rpx;
+    /* margin-left: 20rpx; */
 }
 .floor_item_img{
     border-radius: 5px;
     overflow: hidden;
     height:322rpx;
+    margin-bottom: 16rpx;
+}
+.floor_item_mid_txt{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #333;
+}
+.floor_item_mid_price{
+    font-size: 14px;
+    color: #b4282d;
+}
+.floor_item_bto_txt {
+    font-size: 14px;
+    color: #7F7F7F;
+}
+
+.half-show-header{
+    font-size: 14px;
+    color: #333;
+    height:120rpx;
+    line-height: 120rpx;
+    text-align: center;
+}
+
+.half-show-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20rpx;
+}
+.half-show-item{
+    width:345rpx;
+    padding-bottom: 30rpx;
+}
+
+.half-show-item-img{
+    height:345rpx;
+    background-color: #f4f4f4;
+    border-radius: 5px 5px 0 0; 
+}
+.half-show-item-img-txt{
+    font-size: 12px;
+    padding: 20rpx 10rpx;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #9F8A60;
+    background: #F1ECE2;
+    
+}
+.half-show-item-title{
+    padding: 0 10rpx;
+    margin:20rpx 0 10rpx 0;
+}
+.half-show-item-price{
+    color: #b4282d;
+    padding: 0 10rpx;
+}
+.last-half-show-item{
+    height:414rpx;
+    background-color: #f4f4f4;
+    border-radius: 5px 5px 0 0; 
+    padding: 0;
+    text-align: center
+}
+.midtxt_txt{
+    margin-top: 128rpx;
+} 
+.midtxt_arrow{
+    width: 67rpx;
+    height:67rpx;
+    background:url(//yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/goodGridMore-233aaf669a.png)0 0 no-repeat ;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 28rpx;
 }
