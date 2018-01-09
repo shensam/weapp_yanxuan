@@ -1,3 +1,17 @@
-<view>
-    findGood
+<view class="xcx_wrapper">
+   <view class="exploreBanners">
+       <swiper autoplay >
+            <block wx:for="{{exploreBanners}}">
+                    <swiper-item>
+                            <view class="exploreBanners_item">
+                                    <image src="{{item.bg_img}}"></image>
+                                    <text class="samll_txt">{{item.subtitle}}</text>
+                                    <text class="big_txt">{{item.title[0]}}</text>
+                                    <text class="big_txt big_txt_two">{{item.title[1]}}</text>
+                                </view>
+                       </swiper-item>
+            </block>
+
+       </swiper>
+   </view>
 </view>

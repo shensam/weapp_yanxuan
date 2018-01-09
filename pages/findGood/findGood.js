@@ -1,4 +1,26 @@
 Page({
     data:{
+        "exploreBanners":[
+            {
+                "title":['这些好货','已经抢断码了'],
+                "subtitle":'每满300减90',
+                "bg_img":"https://yanxuan.nosdn.127.net/59c844940ff203fdaf20eda9504a4975.jpg?imageView&quality=75"
+            },
+            {
+                "title":['洗衣液够亲肤','才敢放心洗'],
+                "subtitle":'满2件赠吸色布',
+                "bg_img":"https://yanxuan.nosdn.127.net/cac65dc0c984b5cc702530fd2b268afa.jpg?imageView&quality=75"
+            },
+            {
+                "title":['欢畅的新年，','都有一杯酒'],
+                "subtitle":'全球知名酒庄直供',
+                "bg_img":"https://yanxuan.nosdn.127.net/6ce8140cf768ab16f60e20c41d8405de.jpg?imageView&quality=75"
+            },
+            {
+                "title":['晚安好物分享','美好睡前时光'],
+                "subtitle":'晚安好物分享',
+                "bg_img":"https://yanxuan.nosdn.127.net/0569ea9f961195388cd3c31033ea5e4f.jpg?imageView&quality=75"
+            }
+        ]
     }
 })

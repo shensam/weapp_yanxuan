@@ -1,0 +1,32 @@
+
+.exploreBanners{
+    color:#fff;
+    margin-top: 26rpx;
+}
+.exploreBanners swiper{
+    height:364rpx;
+}
+
+.exploreBanners_item{
+    position: relative;
+    width: 656rpx;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left:60rpx;
+}
+.samll_txt {
+    position: absolute;
+    top:40rpx;
+    left: 20rpx;
+    font-size:22rpx;
+}
+.big_txt {
+    position: absolute;
+    top:80rpx;
+    left: 20rpx;
+    font-size:20px;
+    font-weight: bold;
+}
+.big_txt_two{
+    top:140rpx;
+}
