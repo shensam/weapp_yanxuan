@@ -8,7 +8,7 @@
         </view>
     </view>
     <view class="nav_bar">
-            <scroll-view class="scroll-view_H" scroll-x style="width: auto;overflow:hidden;">
+            <scroll-view class="scroll-view_H" scroll-x >
                 <block wx:for="{{nav_bar_list}}">
                         <view id='nav_{{index}}' wx:key='{{index}}' class='nav_bar_item scroll-view-item {{index==nav_active_item ? "scroll-view-item-active":" "}}' data-idx='{{index}}' bindtap='handleNavTap'>{{item}}</view>
                 </block>

@@ -146,10 +146,7 @@
     background: #D8E5F1 url(//yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/indexNewArrow-f3b56d449b.png) right 50rpx center no-repeat ;
     background-size: 5px;
 }
-.scroll-view-wrapper{
-    overflow: hidden;
-    white-space: nowrap;
-}
+
 
 .firstShow{
     position: relative;

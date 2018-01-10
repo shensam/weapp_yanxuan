@@ -14,6 +14,9 @@
     overflow: hidden;
     margin-left:60rpx;
 }
+.exploreBanners_item image{
+    height:364rpx;
+}
 .samll_txt {
     position: absolute;
     top:40rpx;
@@ -29,4 +32,39 @@
 }
 .big_txt_two{
     top:140rpx;
+}
+
+.channel{
+    box-sizing: border-box;
+    color:black;
+    padding:48rpx 30rpx 54rpx;
+}
+.channel_scroll_view{
+    height:312rpx;
+}
+.channel_item{
+    position: relative;
+    width:164rpx;
+    margin-right:30rpx;
+    vertical-align: top;
+}
+.channel_item_img{
+    height:164rpx;
+    margin-bottom:22rpx;
+}
+.essayNum{
+    position: absolute;
+    top:0;
+    right:0;
+    padding:2px;
+    font-size: 20rpx;
+    color:#fff;
+    background: rgba(0,0,0,0.2);
+}
+.des{
+    width:164rpx;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: pre-wrap;
+    vertical-align:bottom;
 }

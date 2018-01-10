@@ -2,16 +2,29 @@
    <view class="exploreBanners">
        <swiper autoplay >
             <block wx:for="{{exploreBanners}}">
-                    <swiper-item>
-                            <view class="exploreBanners_item">
-                                    <image src="{{item.bg_img}}"></image>
-                                    <text class="samll_txt">{{item.subtitle}}</text>
-                                    <text class="big_txt">{{item.title[0]}}</text>
-                                    <text class="big_txt big_txt_two">{{item.title[1]}}</text>
-                                </view>
-                       </swiper-item>
+                <swiper-item>
+                        <view class="exploreBanners_item">
+                                <image src="{{item.bg_img}}"></image>
+                                <text class="samll_txt">{{item.subtitle}}</text>
+                                <text class="big_txt">{{item.title[0]}}</text>
+                                <text class="big_txt big_txt_two">{{item.title[1]}}</text>
+                            </view>
+               </swiper-item>
             </block>
-
        </swiper>
    </view>
+    <view class="channel scroll-view-wrapper">
+
+        <scroll-view class="channel_scroll_view" scroll-x>
+            <block wx:for="{{channelList}}">
+                <view class="channel_item scroll-view-item">
+                  <view class="channel_item_img ">
+                      <image src="{{item.img}}"></image>
+                  </view>
+                    <view class="essayNum"> {{item.essayNum}}篇文章 </view>
+                    <view class="des"><text>{{item.des}}</text></view>
+                </view>
+            </block>
+        </scroll-view>
+    </view>
 </view>

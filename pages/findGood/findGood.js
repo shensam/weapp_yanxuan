@@ -21,6 +21,34 @@ Page({
                 "subtitle":'晚安好物分享',
                 "bg_img":"https://yanxuan.nosdn.127.net/0569ea9f961195388cd3c31033ea5e4f.jpg?imageView&quality=75"
             }
+        ],
+        "channelList":[
+            {
+                "essayNum":7233,
+                "img":"https://yanxuan.nosdn.127.net/254e04f823354c67d765d68c4012b64e.png?imageView&quality=75",
+                "des":"严选推荐"
+            },
+            {
+                "essayNum":73373,
+                "img":"https://yanxuan.nosdn.127.net/1662ac1fabbc2e495bdda39357a93d65.png?imageView&quality=75",
+                "des":"丁磊的好货推荐"
+            },
+            {
+                "essayNum":75573,
+                "img":"https://yanxuan.nosdn.127.net/1662ac1fabbc2e495bdda39357a93d65.png?imageView&quality=75",
+                "des":"特色系列"
+            },
+            {
+                "essayNum":77773,
+                "img":"https://yanxuan.nosdn.127.net/7be4ed9901fd6b110158e3381eb67ae2.png?imageView&quality=75",
+                "des":"口碑商品"
+            },
+            {
+                "essayNum":77883,
+                "img":"https://yanxuan.nosdn.127.net/7be4ed9901fd6b110158e3381eb67ae2.png?imageView&quality=75",
+                "des":"严选LOOK"
+            },
         ]
-    }
-})
+    },
+
+});
